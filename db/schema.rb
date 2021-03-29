@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 2021_03_28_153440) do
   create_table "questions", force: :cascade do |t|
     t.string "question"
     t.integer "category"
-    t.integer "type"
+    t.integer "question_type"
     t.integer "difficulty"
     t.string "correct_answer"
     t.string "incorrect_answers"
