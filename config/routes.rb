@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
   jsonapi_resources :questionnaires
   jsonapi_resources :questions
+  jsonapi_resources :answers
+  jsonapi_resources :users
 end
